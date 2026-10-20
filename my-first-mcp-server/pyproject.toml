@@ -1,7 +1,9 @@
 [project]
 name = "my-first-mcp-server"
 version = "0.1.0"
-description = "Add your description here"
+description = "Educational MCP server for an in-memory leave manager"
 readme = "README.md"
-requires-python = ">=3.13"
-dependencies = []
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=1.0.0,<2.0.0",
+]
